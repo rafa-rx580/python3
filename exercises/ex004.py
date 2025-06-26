@@ -1,2 +1,3 @@
 n = input("Digite algo: ")
-print(type(n), n.isalpha, n.isascii)
+print(type(n))
+print("So tem espaço?", n.isspace())
